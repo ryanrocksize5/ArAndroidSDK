@@ -23,7 +23,9 @@ To run the Demo, you need to apply for a developer account and create an applica
    
     
     
-     Your APPID
+     <resources>
+    <string translatable="false" name="app_id">你的APPID</string>
+</resources>
     
 
    
