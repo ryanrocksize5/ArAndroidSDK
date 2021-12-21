@@ -1,48 +1,53 @@
-#### 快速开始 🔜
+#### Quick start 🔜
 
-本示例包含了 RTC 4.0 SDK 以及集成 Demo
+This example includes RTC 4.0 SDK and integrated Demo
 
-Demo演示了以下功能
+Demo demonstrates the following functions
 
-- 创建 RtcEngine 实例
-- 加入频道
-- 显示自己和对方的视频
+-Create RtcEngine instance
+-Join the channel
+-Show video of yourself and the other party
 
 
 
-#### 运行示例程序🔜
+#### Run the sample program🔜
 
-跑通该 Demo 需要先申请一个开发者账号并创建应用获取 AppId：
+To run the Demo, you need to apply for a developer account and create an application to get the AppId:
 
-1. 在[开发者后台](https://console.anyrtc.io/signin/)创建一个账号
-2. 左侧应用管理 -> 创建应用
-3. 复制 AppId 后填入 Demo 程序中，具体位置在**values/strings_config.xml**
+1. Create an account in [Developer background](https://console.anyrtc.io/signin/)
+2. Application management on the left -> Create application
+3. Copy the AppId and fill it in the Demo program, the specific location is **values/strings_config.xml**
 
 ```
-<resources>
-    <string translatable="false" name="app_id">你的APPID</string>
-</resources>
+
+   
+    
+    
+     Your APPID
+    
+
+   
 ```
 
-4. 开始运行即可
+4. Just start running
 
 
 
-#### 集成SDK🔜
+#### Integrated SDK🔜
 
-你可以查看文档了解如何 [快速集成](https://docs.anyrtc.io/cn/Video/run/video_setup/start_call_android)
+You can check the documentation to learn how to [Quick Integration](https://docs.anyrtc.io/cn/Video/run/video_setup/start_call_android)
 
-完整文档地址 👉 [API参考](https://docs.anyrtc.io/cn/Video/api-ref/rtc_android/android_overview)
+Full document address👉 [API Reference](https://docs.anyrtc.io/cn/Video/api-ref/rtc_android/android_overview)
 
 
 
-## 联系我们
+## contact us
 
-- 如果在集成中遇到问题, 你可以到 [开发者社区](https://bbs.anyrtc.io/) 提问
-- 如果有售前咨询问题, 可以拨打 021-65650071，或加入官方Q群 580477436 提问
-- 如果需要售后技术支持, 你可以在 [anyRTC Dashboard](https://console.anyrtc.io/) 提交工单
-- 如果发现了示例代码的 bug, 欢迎提交 [issue](https://github.com/anyRTC/ArAndroidSDK/issues)
+-If you encounter problems during integration, you can go to [Developer Community](https://bbs.anyrtc.io/) to ask questions
+-If you have any questions about pre-sales consultation, you can call 021-65650071, or join the official Q group 580477436 to ask questions
+-If you need after-sales technical support, you can submit a ticket at [anyRTC Dashboard](https://console.anyrtc.io/)
+-If you find a bug in the sample code, please submit [issue](https://github.com/anyRTC/ArAndroidSDK/issues)
 
-## 代码许可
+## Code License
 
 The MIT License (MIT)
